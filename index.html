@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator App</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Calculator App</h1>
+
+  <div class="calculator-section">
+    <h2>Student Grade Generator</h2>
+    <form id="grade-form">
+      <label for="mark">Enter the student's mark:</label>
+      <input type="number" id="mark" name="mark" min="0" max="100" required>
+      <input type="submit" value="Calculate Grade">
+    </form>
+    <div class="result" id="grade-result"></div>
+  </div>
+
+  <div class="calculator-section">
+    <h2>Speed Detector</h2>
+    <form id="speed-form">
+      <label for="speed">Enter the car's speed:</label>
+      <input type="number" id="speed" name="speed" min="0" required>
+      <input type="submit" value="Check Speed">
+    </form>
+    <div class="result" id="speed-result"></div>
+  </div>
+
+  <div class="calculator-section">
+    <h2>Net Salary Calculator</h2>
+    <form id="salary-form">
+      <label for="basic-salary">Enter the basic salary:</label>
+      <input type="number" id="basic-salary" name="basic-salary" min="0" required>
+      <label for="benefits">Enter the benefits:</label>
+      <input type="number" id="benefits" name="benefits" min="0" required>
+      <input type="submit" value="Calculate Salary">
+    </form>
+    <div class="result" id="salary-result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
